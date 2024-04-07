@@ -1,0 +1,96 @@
+#root {
+  margin: 0 auto;
+}
+
+.planetGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.planetItem {
+  border: 2mm solid black;
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(235, 235, 240);
+  color: #1b1a1a;
+  padding: 1%;
+  text-align: left;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.search {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+.residents-button {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.residents-button h1 {
+  font-weight: bold;
+}
+
+.button-plus {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  justify-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.button-view {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  justify-content: center;
+  padding-left: 2px;
+  width: 10rem;
+  margin-top: 1rem;
+}
+.button-back {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  justify-content: center;
+  padding-left: 2px;
+  width: 3rem;
+  margin-top: 1rem;
+}
